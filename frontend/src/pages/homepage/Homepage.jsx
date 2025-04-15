@@ -25,11 +25,11 @@ const Homepage = () => {
 
      <header>
         <nav>
-            <div class="logo">
+            <div className="logo">
                 <img src={logo} />
 
             </div>
-            <div class="menu">
+            <div className="menu">
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/">About</a></li>
@@ -43,11 +43,11 @@ const Homepage = () => {
 
      <main>
         {/* <!-- Hero Section --> */}
-         <section class="hero">
-            <div class="heroContainer">
+         <section className="hero">
+            <div className="heroContainer">
                 <h1 id="myh1">Delivery or Takeaway Food</h1>
                 <h2>The best restaurants at the best price</h2>
-                <div class="heroSearch">
+                <div className="heroSearch">
                 <input placeholder="Address, neighborhood....."/>
                 <button id="btn">Search</button>
                 </div>
@@ -61,49 +61,49 @@ const Homepage = () => {
             </div>
 
          </section>
-         <section class="categories">
-            <div class="catContainer">
+         <section className="categories">
+            <div className="catContainer">
                 <h2>Popular Categories</h2>
-                <p class="catDesc">Cum doctus civibus efficiantur in imperdiet deterruisset</p>
-                <div class="catBoxes">
-                    <div class="catBox">
+                <p className="catDesc">Cum doctus civibus efficiantur in imperdiet deterruisset</p>
+                <div className="catBoxes">
+                    <div className="catBox">
                         <img src={cat4} />
-                        <div class="catBoxContent">
+                        <div className="catBoxContent">
                             <h3>Pizza</h3>
                             <p>Avg price $40</p>
                         </div>
                     </div>
-                    <div class="catBox">
+                    <div className="catBox">
                         <img src={cat5}/>
-                        <div class="catBoxContent">
+                        <div className="catBoxContent">
                             <h3>Japense</h3>
                             <p>Avg price $40</p>
                         </div>
                     </div>
-                    <div class="catBox">
+                    <div className="catBox">
                         <img src={cat3} />
-                        <div class="catBoxContent">
+                        <div className="catBoxContent">
                             <h3>Burhgers</h3>
                             <p>Avg price $40</p>
                         </div>
                     </div>
-                    <div class="catBox">
+                    <div className="catBox">
                         <img src={cat6}/>
-                        <div class="catBoxContent">
+                        <div className="catBoxContent">
                             <h3>Vegetarian</h3>
                             <p>Avg price $40</p>
                         </div>
                     </div>
-                    <div class="catBox">
+                    <div className="catBox">
                         <img src={cat1} />
-                        <div class="catBoxContent">
+                        <div className="catBoxContent">
                             <h3>Bakery</h3>
                             <p>Avg price $40</p>
                         </div>
                     </div>
-                    <div class="catBox">
+                    <div className="catBox">
                         <img src={cat2} />
-                        <div class="catBoxContent">
+                        <div className="catBoxContent">
                             <h3>Chinese</h3>
                             <p>Avg price $40</p>
                         </div>
@@ -113,20 +113,20 @@ const Homepage = () => {
 
             </div>
         </section>
-         <section class="topRR">
-            <div class="topRRContainer">
+         <section className="topRR">
+            <div className="topRRContainer">
                 <h2>Top Rated Restaurants</h2>
-                <p class="topRRDesc">
+                <p className="topRRDesc">
                     Cum doctus civibus efficiantur in imperdiet deterruisset.
                 </p>
-                <div class="topRRBoxes">
-                    <div class="topRRBoxesLeft">
+                <div className="topRRBoxes">
+                    <div className="topRRBoxesLeft">
                         <a href="/">
-                  <div class="topRRBox">
-                  <div class="topRRBoxLeft">
+                  <div className="topRRBox">
+                  <div className="topRRBoxLeft">
                     <img src={location1} />
                 </div>
-                  <div class="topRRBoxRight">
+                  <div className="topRRBoxRight">
                   <span>Italian</span>
                   <h3>La Monnalisa</h3>
                   <p>8 Patriot Square E2 9NF</p>
@@ -135,11 +135,11 @@ const Homepage = () => {
               </div>
             </a>
             <a href="/"
-            ><div class="topRRBox">
-              <div class="topRRBoxLeft">
+            ><div className="topRRBox">
+              <div className="topRRBoxLeft">
                 <img src={location2}/>
               </div>
-              <div class="topRRBoxRight">
+              <div className="topRRBoxRight">
                 <span>Italian</span>
                 <h3>La Monnalisa</h3>
                 <p>8 Patriot Square E2 9NF</p>
@@ -148,11 +148,11 @@ const Homepage = () => {
             </div></a
           >
           <a href="/"
-            ><div class="topRRBox">
-              <div class="topRRBoxLeft">
+            ><div className="topRRBox">
+              <div className="topRRBoxLeft">
                 <img src={location3} />
               </div>
-              <div class="topRRBoxRight">
+              <div className="topRRBoxRight">
                 <span>Italian</span>
                 <h3>La Monnalisa</h3>
                 <p>8 Patriot Square E2 9NF</p>
@@ -161,13 +161,13 @@ const Homepage = () => {
             </div></a
           >
         </div>
-        <div class="topRRBoxesRight">
+        <div className="topRRBoxesRight">
           <a href="/"
-            ><div class="topRRBox">
-              <div class="topRRBoxLeft">
+            ><div className="topRRBox">
+              <div className="topRRBoxLeft">
                 <img src={location4}/>
               </div>
-              <div class="topRRBoxRight">
+              <div className="topRRBoxRight">
                 <span>Italian</span>
                 <h3>La Monnalisa</h3>
                 <p>8 Patriot Square E2 9NF</p>
@@ -176,11 +176,11 @@ const Homepage = () => {
             </div></a
           >
           <a href="/"
-            ><div class="topRRBox">
-              <div class="topRRBoxLeft">
+            ><div className="topRRBox">
+              <div className="topRRBoxLeft">
                 <img src={location5} />
               </div>
-              <div class="topRRBoxRight">
+              <div className="topRRBoxRight">
                 <span>Italian</span>
                 <h3>La Monnalisa</h3>
                 <p>8 Patriot Square E2 9NF</p>
@@ -189,11 +189,11 @@ const Homepage = () => {
             </div></a
           >
           <a href="/"
-            ><div class="topRRBox">
-              <div class="topRRBoxLeft">
+            ><div className="topRRBox">
+              <div className="topRRBoxLeft">
                 <img src={location6} />
               </div>
-              <div class="topRRBoxRight">
+              <div className="topRRBoxRight">
                 <span>Italian</span>
                 <h3>La Monnalisa</h3>
                 <p>8 Patriot Square E2 9NF</p>
@@ -205,9 +205,9 @@ const Homepage = () => {
                 </div>
             </div>
          </section>
-         <section class="start">
-          <div class="startContainer">
-            <div class="startContent">
+         <section className="start">
+          <div className="startContainer">
+            <div className="startContent">
             <h3>FOOLIVERY DELIVERY</h3>
             <h1>We Deliver to your Office</h1>
             <p>Enjoy a tasty food in minutes!</p>
@@ -216,11 +216,11 @@ const Homepage = () => {
           </div>
 
          </section>
-         <section class="cta">
-          <div class="ctaContainer">
-            <div class="ctaLeft">
-              <div class="ctaBox">
-                <div class="ctaBoxChild">
+         <section className="cta">
+          <div className="ctaContainer">
+            <div className="ctaLeft">
+              <div className="ctaBox">
+                <div className="ctaBoxChild">
                   <img src={how1}/>
                   <h3>Easly Order</h3>
                   <p>
@@ -228,7 +228,7 @@ const Homepage = () => {
                     tincidunt metus lectus sollicitudin.
                   </p>
                 </div>
-                <div class="ctaBoxChild">
+                <div className="ctaBoxChild">
                   <img src={how2} />
                   <h3>Quick Delivery</h3>
                   <p>
@@ -237,8 +237,8 @@ const Homepage = () => {
                   </p>
                 </div>
               </div>
-              <div class="ctaBox">
-                <div class="ctaBoxChild">
+              <div className="ctaBox">
+                <div className="ctaBoxChild">
                   <img src={how3} />
                   <h3>Enjoy Food</h3>
                   <p>
@@ -248,7 +248,7 @@ const Homepage = () => {
                 </div>
               </div>
             </div>
-            <div class="ctaRight">
+            <div className="ctaRight">
               <h2>Start Ordering Now</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -267,8 +267,8 @@ const Homepage = () => {
 
      {/* <!-- Footer --> */}
        <footer>
-        <div class="fContainer">
-          <div class="fTab">
+        <div className="fContainer">
+          <div className="fTab">
             <h3>QUICK LINKS</h3>
             <ul>
               <li><a href="/">Home</a></li>
@@ -277,7 +277,7 @@ const Homepage = () => {
               <li><a href="/">Login</a></li>
             </ul>
           </div>
-          <div class="fTab">
+          <div className="fTab">
             <h3>CATEGORIES</h3>
             <ul>
               <li><a href="/">Top Categories</a></li>
@@ -286,7 +286,7 @@ const Homepage = () => {
               <li><a href="/">Latest Submissions</a></li>
             </ul>
           </div>
-          <div class="fTab">
+          <div className="fTab">
             <h3>CONTACTS</h3>
             <ul>
               <li>
@@ -299,7 +299,7 @@ const Homepage = () => {
               <li><a href="/">info@domain.com</a></li>
             </ul>
           </div>
-          <div class="fTab">
+          <div className="fTab">
             <h3>KEEP IN TOUCH</h3>
             <input placeholder="Your Email" />
           </div>
