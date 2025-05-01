@@ -1,0 +1,43 @@
+header {
+    
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbf3cc;
+
+
+  }
+
+  header nav {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    width:  var(--myWidth);
+  }
+
+  header nav .logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+ 
+
+  }
+
+  header nav .logo img{
+    width: 25%;
+    height: auto;
+  }
+
+  header nav .menu ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-weight: 500;
+  }
+
+  header nav .menu ul li a{
+    text-decoration: none;
+    color: black;
+  }

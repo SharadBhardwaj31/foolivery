@@ -1,0 +1,46 @@
+.categories{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .catContainer{
+    width:var(--myWidth);
+  }
+
+  .categories .catContainer h2{
+    text-align: center;
+    font-size:2.5rem;
+    font-weight: 500;
+  }
+
+  .categories .catContainer .catDesc{
+    text-align: center;
+    font-size:1.5rem;
+    font-weight: 300;
+    margin: 0 0 2rem 0;
+  }
+
+  .categories .catContainer .catBoxes {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+.categories .catContainer .catBoxes .catBox{
+  width: calc(100% / 6);
+}
+
+.categories .catContainer .catBoxes .catBox img{
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  z-index: -999;
+}
+
+.categories .catContainer .catBoxes .catBox .catBoxContent {
+  margin: -3.5rem 0 0 1rem;
+  color: #fff;
+}

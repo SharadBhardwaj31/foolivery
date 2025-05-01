@@ -1,0 +1,60 @@
+.hero{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbf3cc;
+    background-image: url(../../../../assets/heroImage.svg);
+  }
+
+  .hero .heroContainer{
+  width: var(--myWidth);
+  
+  }
+
+  .hero .heroContainer h1{
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  
+  .hero .heroContainer h2{
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .hero .heroContainer .heroSearch{
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    margin: 0 0 0.5rem 0;
+  }
+
+  .hero .heroContainer .heroSearch input{
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    width: 40rem;
+    padding: 0.5rem;
+  }
+
+  .hero .heroContainer .heroSearch button{
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    background:var(--myBtnColor);
+    padding: 1rem 2rem;
+    color: white;
+    border: none;
+  }
+
+  .hero .heroContainer p{
+    font-weight: 500;
+  }
+
+  .hero .heroContainer p span a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+  }

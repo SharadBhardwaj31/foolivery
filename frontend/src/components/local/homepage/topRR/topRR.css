@@ -1,0 +1,94 @@
+.topRR{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9fafc;
+    padding: 5rem 0;
+  }
+  
+  .topRR .topRRContainer{
+    width: var(--myWidth);
+  }
+  
+  .topRR .topRRContainer h2{
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .topRR .topRRContainer .topRRDesc{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0 0 0.5rem 0;
+  }
+  .topRR .topRRContainer .topRRBoxes {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .topRR .topRRContainer .topRRBoxes .topRRBoxesLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .topRR .topRRContainer .topRRBoxes .topRRBoxesRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .topRRBox{
+    display: flex;
+    gap: 2rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .topRRBoxes .topRRBoxLeft{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 0.3rem;
+  }
+  
+  .topRRBox .topRRBoxLeft img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.3rem;
+    transform: scale(1.1);
+    transition: 0.3s all ease-in-out;
+  }
+  
+  .topRRBox .topRRBoxLeft img:hover {
+    transform: scale(1);
+  }
+  
+  .topRRBox .topRRBoxRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+  }
+  
+  .topRRBox .topRRBoxRight span{
+    font-style: italic;
+    color: #000;
+  }
+  
+  .topRRBox .topRRBoxRight h3 {
+    color: #000;
+    margin: 0.5rem 0 0.5rem 0;
+  }
+  .topRRBox .topRRBoxRight p{
+    color: grey;
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .topRRBox .topRRBoxRight small{
+    color: black;
+  }

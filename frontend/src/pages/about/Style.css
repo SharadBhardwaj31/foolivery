@@ -1,0 +1,131 @@
+
+.about .aboutContainer h1{
+    display: flex;
+    height: 87vh;
+    font-weight: 500;
+    font-size: 3rem;
+    color: white;
+    padding-top: 8rem;
+    padding-left: 18rem;
+    background :linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),
+    url(../../assets/About/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box{
+    padding: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 90vh;
+    width: 100%;
+    background-color: #fbf3cc;
+}
+
+.boxLeft {
+    width: 50%;
+    background-position: center;
+    background-image: url(../../assets/About/boxLeft_bg.avif);
+    box-shadow: rgba(0,0,0,0.25) 0px 54px 55px , rgba(0,0,0,0.12) 0px -12px 30px,rgba(0,0,0,0.12) 0px 4px 6px,rgba(0,0,0,0.17) 0px 12px 13px, rgba(0,0,0,0.09) 0px -3px 5px ;
+    background-size: cover;
+    height: 80vh;
+    border-radius: 0.5rem;
+
+
+}
+
+ 
+.boxRight{
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 50%;
+    display: flex;
+    justify-content:center ;
+    height: 80vh;
+    padding: 0 2rem 0 2rem;
+    text-align: justify;
+    flex-direction: column;
+}
+
+.boxRight h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: red;
+}
+
+.img{
+ 
+  height: 60vh;
+  display: flex;
+  padding: 3rem;
+  gap: 3rem;
+  background-color: beige;
+}
+
+.imgLeft{
+    
+    width: 50%;
+    background :linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../../assets/About/cheafleft.jpg);
+    box-shadow: rgba(0,0,0,0.25) 0px 54px 55px , rgba(0,0,0,0.12) 0px -12px 30px,rgba(0,0,0,0.12) 0px 4px 6px,rgba(0,0,0,0.17) 0px 12px 13px, rgba(0,0,0,0.09) 0px -3px 5px ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.imgRight{
+
+    width: 50%;
+    background :linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../../assets/About/cheafright.jpg);
+    box-shadow: rgba(0,0,0,0.25) 0px 54px 55px , rgba(0,0,0,0.12) 0px -12px 30px,rgba(0,0,0,0.12) 0px 4px 6px,rgba(0,0,0,0.17) 0px 12px 13px, rgba(0,0,0,0.09) 0px -3px 5px ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    
+}
+
+.imgLeft h2{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.imgRight h2{
+    color: white;
+    margin: 1rem;
+    text-align: center;
+}
+
+.imgLeft button{
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    background-color: red;
+    padding: 1rem 2rem;
+    color: white;
+    border: none;
+    text-align: center;
+    margin: 6rem 0 0 13rem;
+
+} 
+
+.imgRight button{
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    background-color: red;
+    padding: 1rem 2rem;
+    color: white;
+    border: none;
+    margin: 6rem 0 0 13rem;
+}
+
+
+
+
+
+
+
