@@ -13,6 +13,7 @@
   .topRR .topRRContainer h2{
     font-size: 2rem;
     font-weight: 500;
+    transition: 0.3s;
   }
   
   .topRR .topRRContainer .topRRDesc{
@@ -91,4 +92,28 @@
   
   .topRRBox .topRRBoxRight small{
     color: black;
+  }
+
+  @media (max-width: 400px) {
+    .topRR .topRRContainer .topRRBoxes {
+      flex-direction: column;
+    }
+    .topRR .topRRContainer .topRRBoxes .topRRBoxesLeft {
+      width: 100%;
+    }
+    .topRR .topRRContainer .topRRBoxes .topRRBoxesRight {
+      width: 100%;
+    }
+    .topRRBox {
+      width: 100%;
+      flex-direction: column;
+      gap: 0;
+    }
+    .topRRBox .topRRBoxLeft {
+      width: 100%;
+    }
+    .topRRBox .topRRBoxRight {
+      width: 100%;
+      padding: 1rem;
+    }
   }

@@ -58,3 +58,18 @@
     color: black;
     font-weight: 300;
   }
+
+  @media (max-width: 400px) {
+    .hero .heroContainer h1 {
+      font-size: 2rem;
+    }
+    .hero .heroContainer h2 {
+      font-size: 1.2rem;
+    }
+    .hero .heroContainer .heroSearch input {
+      width: 100%;
+    }
+    .hero .heroContainer .heroSearch button {
+      width: 100%;
+    }
+  }

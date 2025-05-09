@@ -1,19 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 :root {
   --myWidth: 80%;
+  --maxWidth: 1400px;
   --myBtnColor: green;
-  
 }
 
-a{
+a {
   text-decoration: none;
 }
 body {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 400px) {
+  :root {
+    --myWidth: 85%;
   }
+}
